@@ -1,18 +1,19 @@
 # RightMeal Privacy Policy
 
-Effective 17 October 2026. Sanvvy, Inc., 8 The Green #12050, Dover, DE 19901, US ("we") publishes RightMeal for iPhone and Apple Watch. Contact: [lufei.zhou@sanvvy.com](mailto:lufei.zhou@sanvvy.com).
+Effective 5 November 2026. Sanvvy, Inc., 8 The Green #12050, Dover, DE 19901, US ("we") publishes RightMeal for iPhone and Apple Watch. Contact: [lufei.zhou@sanvvy.com](mailto:lufei.zhou@sanvvy.com).
 
 ## The short version
 
-- There is no account. Your meals, weight goal and weight history are stored **only on your devices**.
+- There is no account. Your meals, weight goal, weight history and GLP-1 details are stored **only on your devices**.
 - A meal leaves your iPhone only when you ask for a verdict, and only after you tap **Allow** on the screen that explains what is sent. You can turn this off in **Settings › RightMeal Pro**.
 - We do not sell your data, show ads, or track you across apps or websites.
 
 ## What stays on your device
 
 - Meals you log: your words, the recording of a spoken take, the photo if you take one, the time, and any verdict.
-- Your weight goal (lose, maintain or gain) and its weekly pace; your weigh-ins and target weight, if you log them.
-- Health data read from Apple Health (steps, sleep, workouts, stand minutes, cardio fitness/VO₂ max), cached locally so the app works offline.
+- Your weight goal (lose or maintain) and its weekly pace; your weigh-ins and target weight, if you log them.
+- Your GLP-1 details: which medicine (by its generic name), your dose schedule, strength and appetite, the doses you log (with their strength and injection site, if you pick them), your daily side-effect check-ins, and how meals sat if you tell the app.
+- Steps read from Apple Health, cached locally so the app works offline. Weight, lean body mass and body fat (from a smart scale, say) are read from Apple Health each time Your GLP-1 shows them, and no copy is kept. If you share medicines from Apple Health, the app reads when you took your GLP-1 doses each time it needs it and keeps no copy.
 - Your preferences (appearance, units, dictation language).
 - A counter of free verdicts used, kept in the iPhone's Keychain. Unlike the rest, it **survives deleting and reinstalling the app**, so the free allowance can't be reset. It holds a number only.
 
@@ -27,7 +28,7 @@ Only when you ask for a verdict and only after you allowed it (the one exception
 | Recipient | What | Why |
 |---|---|---|
 | **Our relay server** (run on Cloudflare) | everything in the TypeSafe row, passed straight through and not stored or logged; your IP address, as with any web request, not stored; a random key your iPhone creates when the app is installed, which proves the request comes from the genuine app. We keep that key with a count of today's requests to limit misuse. It is not linked to you and is replaced when you reinstall the app | to protect the service from misuse and forward the request to TypeSafe |
-| **TypeSafe** ([typesafe.ai](https://typesafe.ai)), which runs the model behind RightMeal's verdicts | the meal in words and the time, and its photo if you add one (resized, with location and camera details removed); your weight goal and weekly pace, and your current and target weight if you logged them; today's steps, stand minutes and latest workout, last night's sleep and sleep score, your most recent VO₂ max; the meals you already logged today with their verdicts | to produce the verdict for that meal |
+| **TypeSafe** ([typesafe.ai](https://typesafe.ai)), which runs the model behind RightMeal's verdicts | the meal in words and the time, and its photo if you add one (resized, with location and camera details removed); your weight goal and weekly pace, and your current and target weight if you logged them; today's steps; the meals you already logged today with their verdicts; that you take a GLP-1 medicine, weekly or daily, how many days since your last dose, which step of its strengths you're on and for how long (never the medicine's name); your appetite setting; today's side-effect check-in (for example, mild nausea); meals from the last week you said sat badly, with how they sat | to produce the verdict for that meal |
 
 Separately, whether or not you ask for verdicts, the app sends anonymous usage statistics to **PostHog** ([posthog.com](https://posthog.com), servers in the United States): that the app was installed and opened, the app and iOS version, the device model, language and region, when the subscription screen was shown, whether meal reminders were turned on or off, a free trial, purchase or renewal (product, price and App Store country) which kind of error occurred, and, if the app crashes, a crash report (where in the app's code it stopped). These are tied only to a random identifier created when the app is installed; no profile is kept about you, and your IP address is not used to locate you. Your meals, photos, health data and weight are never part of it. We use it only to see how the app is used and where it breaks, never for advertising or tracking.
 
@@ -38,7 +39,7 @@ Purchases are handled by Apple; we receive only whether your subscription is act
 ## Your choices
 
 - **Turn off sending:** Settings › RightMeal Pro › Stop Sending Meals. Nothing is sent afterwards; you can keep logging meals without verdicts.
-- **Apple Health:** change access in the Health app › Sharing › Apps, or in Settings › Apple Health.
+- **Apple Health:** change access in the Health app › Sharing › Apps, or in Settings › Apple Health; choose which medicines to share in Settings › Your GLP-1.
 - **Microphone and camera:** iOS Settings › RightMeal. You can always type instead.
 - **Delete your data:** deleting the app removes everything stored by it except the free-verdict counter. Our relay passes the meals and health data you send for a verdict on to TypeSafe without keeping them, and nothing sent carries your name or anything that identifies you, so we cannot look it up for you. The random app key and its daily count are replaced when you reinstall the app. To ask about or delete data already sent, contact TypeSafe at [privacy@typesafe.ai](mailto:privacy@typesafe.ai).
 
@@ -53,3 +54,4 @@ We will update the effective date and, for material changes, tell you in the app
 ## Contact
 
 Sanvvy, Inc. · 8 The Green #12050, Dover, DE 19901, US · [lufei.zhou@sanvvy.com](mailto:lufei.zhou@sanvvy.com)
+
