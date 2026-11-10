@@ -14,9 +14,9 @@ Effective 7 November 2026. Sanvvy, Inc., 8 The Green #12050, Dover, DE 19901, US
 - Your weigh-ins, if you log them, and your daily protein and fiber targets.
 - A share image of your weight progress is made on your iPhone. A photo you add to it is only drawn into the image, never saved by the app, and goes only where you choose to share it.
 - Your GLP-1 details: which medicine (by its generic name), your dose schedule and strength, the doses you log (with their strength and injection site, if you pick them), and how meals sat if you tell the app.
-- Steps read from Apple Health, cached locally so the app works offline. Weight, lean body mass and body fat (from a smart scale, say) are read from Apple Health each time the app shows your weight or body trend, and no copy is kept. If you share medicines from Apple Health, the app reads when you took your GLP-1 doses each time it needs it and keeps no copy.
+- Steps read from Apple Health, cached locally so the app works offline. Your weight (from a smart scale, say) is read from Apple Health each time the app shows your weight or its trend, and no copy is kept. If you share medicines from Apple Health, the app reads when you took your GLP-1 doses each time it needs it and keeps no copy.
 - Your preferences (appearance, units, dictation language).
-- A counter of free verdicts used, kept in the iPhone's Keychain. Unlike the rest, it **survives deleting and reinstalling the app**, so the free allowance can't be reset. It holds a number only.
+- A mark that your first free call was used, kept in the iPhone's Keychain. Unlike the rest, it **survives deleting and reinstalling the app**, so the free call can't be claimed twice. It holds a yes or no only.
 
 Speech is transcribed on your device by Apple's speech recognition. Recordings never leave your iPhone.
 
@@ -40,7 +40,7 @@ Purchases are handled by Apple; we receive only whether your subscription is act
 
 ## Your choices
 
-- **Turn off sending:** Settings › RightMeal Pro › Stop Sending Meals. Nothing is sent afterwards; you can keep logging meals without verdicts or ideas.
+- **Turn off sending:** Settings › About › Stop Sending Meals. Nothing is sent afterwards; you can keep logging meals without verdicts or ideas.
 - **Apple Health:** change access in the Health app › Sharing › Apps, or in Settings › Apple Health; choose which medicines to share in Settings › Your GLP-1.
 - **Microphone and camera:** iOS Settings › RightMeal. You can always type instead.
 - **Delete your data:** deleting the app removes everything stored by it except the free-verdict counter. Our relay passes the meals and health data you send on to TypeSafe or DeepSeek without keeping them, and nothing sent carries your name or anything that identifies you, so we cannot look it up for you. The random app key and its daily count are replaced when you reinstall the app. To ask about or delete data already sent, contact TypeSafe at [privacy@typesafe.ai](mailto:privacy@typesafe.ai), or DeepSeek through its privacy policy.
